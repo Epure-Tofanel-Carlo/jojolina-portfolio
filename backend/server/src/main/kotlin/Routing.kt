@@ -29,7 +29,7 @@ fun Application.configureRouting() {
     }
     routing {
         // Static plugin. Try to access `/static/index.html`
-        staticResources("/static", "static")
-        staticResources("/", "/web")
+        staticResources("/", "static")
+        //staticResources("/", "/web")
     }
 }
