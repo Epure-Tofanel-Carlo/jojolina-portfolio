@@ -29,6 +29,7 @@ fun Application.configureTemplating() {
             call.respondHtml {
                 leaderboardPage(random)
             }
+
         }
 
         get("/more-rows") {

@@ -10,30 +10,30 @@ import kotlin.random.Random
 
 fun HTML.leaderboardPage(random: Random) {
     head {
-        title("HTMX Example")
+        title("Portfolio")
         script(src = "/web.js") {}
         link(rel = "stylesheet", href = "/leaderboard.css")
     }
     body {
         h1 {
-            +"Leaderboard"
+            +"Under Construction"
         }
-        table {
-            id = "leaderboard"
-            thead {
-                tr {
-                    th { +"Alias" }
-                    th { +"Score" }
-                }
-            }
-            tbody {
-                randomRows(random)
-            }
-        }
-        h2 {
-            id = "total-count"
-            +"Total: 10"
-        }
+//        table {
+//            id = "leaderboard"
+//            thead {
+//                tr {
+//                    th { +"Alias" }
+//                    th { +"Score" }
+//                }
+//            }
+//            tbody {
+//                randomRows(random)
+//            }
+//        }
+//        h2 {
+//            id = "total-count"
+//            +"Total: 10"
+//        }
     }
 }
 
